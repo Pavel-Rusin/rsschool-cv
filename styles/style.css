@@ -1,0 +1,100 @@
+.page {
+    min-width: 320px;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.header {
+	border-bottom: 1px solid #f3f3f3;
+    background-color: #374957;
+    position: relative;
+    line-height: 45px;
+    min-width: 320px;
+    height: 45px;
+}
+
+.nav {
+	text-align: center;
+}
+
+.nav-list {
+	display: flex;
+	align-items: center;
+    text-align: center;
+    list-style: none;
+    margin: 0 0 0 0;
+    padding: 0;
+}
+
+.nav-item {
+	padding: 0 32px;
+}
+
+.nav-link {
+	text-decoration: none;
+	color: #f3f3f3;
+}
+.contact {
+    background-color: #1f1f1f;
+    display: flex;
+    height: 400px;
+}
+
+.contactsList {
+    display: flex;
+}
+
+.contactsList-item:first-child {
+    padding-bottom: 20px;
+}
+
+.contact__row:first-child {
+    padding-right: 40px;
+}
+
+.myPhoto {
+    margin: 65px;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    height: 270px;
+    width: 225px;
+}
+
+.dark {
+    color: white;
+}
+
+.title {
+    margin-top: 55px;
+    margin-bottom: 0;
+    font-size: 40px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 69px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.subtitle {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 2px;
+    line-height: 34px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.secondTitle {
+    line-height: 34px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.contactsList-item {
+    color: white;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
